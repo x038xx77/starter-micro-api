@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  ts-node-docker:
+    image: x038xx77/graphql_users:v1.0.2022
+    expose:
+      - '4000'
+    ports:
+      - '4000:4000'
